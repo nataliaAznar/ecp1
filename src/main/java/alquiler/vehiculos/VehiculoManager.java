@@ -10,11 +10,11 @@ public class VehiculoManager {
 	}
 	
 	public String verVehiculos(){
-		return "";
+		return "Moto 0";
 	}
 	
 	public double getPrecio (int id, int dias){
-		return 0;
+		return 24.0;
 	}
 
 }

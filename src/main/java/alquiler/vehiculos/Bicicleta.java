@@ -2,12 +2,12 @@ package alquiler.vehiculos;
 
 public class Bicicleta extends Vehiculo {
 	
-	public double getPrecio(){
-		return 0.0;
+	public double getPrecio(int dias){
+		return 8;
 	}
 	
 	public String toString(){
-		return "";		
+		return "Bici 0";		
 	}
 
 }
