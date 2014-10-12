@@ -1,17 +1,23 @@
 package alquiler.vehiculos;
 
 public class B extends Coche {
+	private static final double precio = 15;
 	
 	public B(String desc) {
 		super(desc);
 	}
 
 	public double getPrecio(int dias){
-		return 0.0;
+		double precioFinal;
+		int diasTarifaUno = this.tarifaUno(dias);
+		precioFinal = diasTarifaUno * B.precio;
+		precioFinal += this.tarifaDos(dias) * B.precio * B.tarifa2;
+		precioFinal += this.tarifaTres(dias) * B.precio * B.tarifa3;
+		return precioFinal;
 	}
 	
 	public String toString(){
-		return "";		
+		return "Coche B " + this.desc;
 	}
 
 }
