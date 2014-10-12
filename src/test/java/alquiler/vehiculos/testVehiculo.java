@@ -20,7 +20,7 @@ public class testVehiculo {
 	
 	@Test
 	public void testToString(){
-		assertEquals("Bici 0", v.toString());
+		assertEquals("Bici azul", v.toString());
 	}
 
 }

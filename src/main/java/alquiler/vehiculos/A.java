@@ -7,7 +7,7 @@ public class A extends Coche {
 	}
 	
 	public String toString(){
-		return "Coche A 0";		
+		return "Coche A verde";		
 	}
 
 }

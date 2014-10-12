@@ -7,7 +7,7 @@ public class Bicicleta extends Vehiculo {
 	}
 	
 	public String toString(){
-		return "Bici 0";		
+		return "Bici azul";		
 	}
 
 }

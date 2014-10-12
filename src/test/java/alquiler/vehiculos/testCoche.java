@@ -20,6 +20,6 @@ public class testCoche {
 	
 	@Test
 	public void testToString(){
-		assertEquals("Coche A 0", c.toString());
+		assertEquals("Coche A verde", c.toString());
 	}
 }
