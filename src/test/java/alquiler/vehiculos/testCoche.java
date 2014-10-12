@@ -15,7 +15,7 @@ public class testCoche {
 	
 	@Test
 	public void testGetPrecio(){
-		assertEquals(67.0, c.getPrecio(9), 10e-5);
+		assertEquals(72.0, c.getPrecio(9), 10e-5);
 	}
 	
 	@Test
