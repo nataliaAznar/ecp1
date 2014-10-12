@@ -2,6 +2,10 @@ package alquiler.vehiculos;
 
 public class A extends Coche {
 	
+	public A(String desc) {
+		super(desc);
+	}
+
 	public double getPrecio(int dias){
 		return 67.0;
 	}
