@@ -10,8 +10,12 @@ public class Bicicleta extends Vehiculo {
 
 	public double getPrecio(int dias){
 		int restoDias = dias - 2;
-		double precio = dias * Bicicleta.precio1;
-		if( restoDias > 0) precio += (restoDias * Bicicleta.precio2);
+		double precio;
+		if( restoDias > 0){
+			precio = 2 * Bicicleta.precio1;
+			precio += (restoDias * Bicicleta.precio2);
+		}
+		else precio = 2 * dias;
 		return precio;
 	}
 	
