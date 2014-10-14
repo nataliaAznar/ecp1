@@ -16,13 +16,14 @@ public class testVehiculoManager {
 	
 	@Test
 	public void testVerVehiculos(){
-		assertEquals("Moto 0", v.verVehiculos());
+		System.out.println(v.verVehiculos());
+		assertEquals("Moto roja\n", v.verVehiculos());
 		
 	}
 	
 	@Test
 	public void testGetPrecio(){
-		assertEquals( 24.0, v.getPrecio(0, 2), 10e-5);
+		assertEquals( 16.0, v.getPrecio(0, 2), 10e-5);
 	}
 
 }
