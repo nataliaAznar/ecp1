@@ -4,8 +4,8 @@ public class Bicicleta extends Vehiculo {
 	private static final double precio1 = 3;
 	private static final double precio2 = 2;
 	
-	public Bicicleta(String desc) {
-		super(desc);
+	public Bicicleta(String desc, String id) {
+		super(desc, id);
 	}
 
 	public double getPrecio(int dias){

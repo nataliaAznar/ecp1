@@ -3,8 +3,8 @@ package alquiler.vehiculos;
 public class A extends Coche {
 	private static final double precio = 10;
 	
-	public A(String desc) {
-		super(desc);
+	public A(String desc, String id) {
+		super(desc, id);
 	}
 
 	public double getPrecio(int dias){

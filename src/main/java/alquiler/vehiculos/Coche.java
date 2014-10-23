@@ -4,8 +4,8 @@ public class Coche extends Vehiculo {
 	protected static final double tarifa2 = 0.80;
 	protected static final double tarifa3 = 0.50;
 
-	public Coche(String desc) {
-		super(desc);
+	public Coche(String desc, String id) {
+		super(desc, id);
 	}
 	
 	protected int tarifaUno ( int dias){

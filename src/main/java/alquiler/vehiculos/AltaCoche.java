@@ -2,13 +2,12 @@ package alquiler.vehiculos;
 
 import upm.jbb.IO;
 
-public class AltaCoche extends AltasController{
-	
-	
+public class AltaCoche extends ControllerPadre{
+		
 	public AltaCoche(VehiculoManager vm) {
 		super(vm);
 	}
-
+	
 	public void altaA(){
 		A a = (A) IO.in.read(A.class, "Alta coche A");
 		vm.altaVehiculo(a);
