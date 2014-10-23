@@ -10,7 +10,7 @@ public class testCoche {
 	
 	@Before
 	public void before() {
-		c = new A( "verde" );
+		c = new A( "verde", "a" );
 	}
 	
 	@Test

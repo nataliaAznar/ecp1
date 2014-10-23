@@ -11,7 +11,7 @@ public class testVehiculoManager {
 	@Before
 	public void before() {
 		v = new VehiculoManager();
-		v.altaVehiculo(new Moto( "roja"));
+		v.altaVehiculo(new Moto( "roja", "m"));
 	}
 	
 	@Test
@@ -23,7 +23,7 @@ public class testVehiculoManager {
 	
 	@Test
 	public void testGetPrecio(){
-		assertEquals( 16.0, v.getPrecio(0, 2), 10e-5);
+		assertEquals( 16.0, v.getPrecio( "m", 2), 10e-5);
 	}
 
 }
